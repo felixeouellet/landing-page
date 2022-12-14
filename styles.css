@@ -1,6 +1,4 @@
 * {
-    border-color: rgb(139, 139, 139);
-    border: 0.2px solid;
     margin: 0;
 }
 
@@ -109,7 +107,7 @@
 #second .boxes {
     display: flex;
     justify-content: space-between;
-    gap: 70px;
+    gap: 60px;
     padding-left: 300px;
     padding-right: 300px;
 }
@@ -124,7 +122,8 @@
     padding: 30px; 
     border-radius: 10px; 
     border: 2px solid #3882F6;
-    height: 80px;
+    height: 90px;
+    margin-bottom: 20px;
 }
 
 #second .boxes .box .box-p {
@@ -132,4 +131,100 @@
     font-size: 18px;
     font-weight: 100;
     color: #6D747D;
+}
+
+/*Third part of the website*/
+
+#third {
+    background-color: #E5E7EB;
+    Padding-top: 120px;
+    padding-bottom: 80px;
+    padding-left: 300px;
+    padding-right: 300px;
+    display: flex;
+    flex-direction: column;
+    font-family: "roboto", sans-serif;
+}
+
+#third .quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+}
+
+#third .who {
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: right;
+}
+
+/*Fourth part of the website*/
+
+#fourth {
+    font-family: "roboto", sans-serif;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#fourth .box {
+    background-color: #3882F6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 7px;
+    display: flex;
+}
+
+#fourth .box .left {
+    display: flex;
+    flex-direction: column;
+    flex: 6 1 0;
+}
+
+#fourth .box .left .call {
+    font-size: 18px;
+    font-weight: 700;
+    color: #F9FAF8;
+    margin-bottom: 5px;
+}
+
+#fourth .box .left .sign {
+    font-size: 18px;
+    font-weight: 100;
+    color: #F9FAF8;
+}
+
+#fourth .box .right {
+    flex: 1 1 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 2px solid #F9FAF8;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+/*Footer part of the website*/
+
+#footer {
+    background-color: #1F2937;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: #F9FAF8;
+    font-family: "roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    word-spacing: 5px;
 }
